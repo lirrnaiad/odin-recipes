@@ -6,9 +6,26 @@
     text-align: center;
 }
 
-.home-recipes {
-    display: inline-block;
-    text-align: left;
+.recipe img {
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
+
+.recipe {
+    box-sizing: border-box;
+    width: 33%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin-top: 8em;
+    
+}
+
+.recipe a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 nav {
@@ -22,7 +39,6 @@ nav {
 
 .title {
     font-size: 48px;
-    margin-bottom: 0%;
 }
 
 .description {
@@ -67,5 +83,4 @@ img {
 
 .instructions li {
     margin: 20px;
-
 }
